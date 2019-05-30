@@ -1,10 +1,10 @@
 # camera_gallery_image
 This lib will help user to get image from gallary and camera all permission will take care by lib.
+
 # Start Add Mainfest
 under application please deff.
-
-# <activity android:name="app.com.camera_lib.CameraGalley"/>
- # <provider
+<activity android:name="app.com.camera_lib.CameraGalley"/>
+<provider
                 android:name="app.com.camera_lib.GenericFileProvider"
                 android:authorities="${applicationId}.my.package.name.provider"
                 android:exported="false"
