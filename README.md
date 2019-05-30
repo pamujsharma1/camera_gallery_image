@@ -1,7 +1,17 @@
 # camera_gallery_image
 This lib will help user to get image from gallary and camera all permission will take care by lib.
 
-# Start Add Mainfest: 
+# Added Dependency:
+allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+        
+implementation 'com.github.pamujsharma1:camera_gallery_image:1.0.2'
+
+# Mainfest: 
 
 &lt;provider
         android:name="app.com.camera_lib.GenericFileProvider"
